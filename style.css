@@ -1,0 +1,162 @@
+body{
+    margin:0px;
+}
+header{
+    display:flex;
+    top:0;
+    width: 100%;
+    background-color: yellow;
+    justify-content: space-between;
+    position: fixed;
+    z-index:1;
+    color:rgb(0, 0, 0);
+    padding: 10px;
+}
+nav a{
+    padding : 10px 25px;
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+}
+section.home{
+    background: url("https://png.pngtree.com/background/20250211/original/pngtree-fresh-pineapple-on-yellow-background-summer-fruit-concept-photo-picture-image_12204524.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+height: 600px;
+}
+section.home .welcome{
+    color: black;
+    font-size: 30px;
+}
+section.about{
+    background-color:yellow;
+    height: 600px;
+}
+section.product{
+    background:url("https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2021/09/28/3236065183.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment:fixed;
+height:600px;
+}
+section.contact{
+background-color: black;
+height: 600px;
+}
+footer{
+    background-color: black;
+    height:50px;
+}
+section.home{
+    height: 600px;
+    background:url ("https://assets.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/jakartaakurat/2023/04/Buah-Nanas-Untuk-Kesehatan-Tubuh.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+padding-top:100px;
+}
+section.home div{
+text-align:center;
+color:rgb(23, 22, 22);
+margin:auto;
+width:70%;
+padding:20px;
+}
+section.home .welcome{
+    font-size: 30px;
+}
+    section.home a{
+        color:rgb(19, 19, 19);
+        padding: 10px 20px;
+        text-decoration:none;
+        box-shadow:0px 0px 3px;
+        border-radius: 20px;
+    }
+    section.about{
+        background-color: black ;
+        height: 600px;
+        padding-top: 100px; 
+    }
+section.about div{
+color:white;
+text-align: center;
+margin:auto;
+width:70%;
+}
+section.about img{
+    height: 200px;
+}
+section.product{
+    background: url("https://assets.onecompiler.app/3ygqrjfrk/43ddsuqtk/cafe3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1200px;
+  }
+  
+section.product .container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+  }
+  
+section.product .container .card{
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    width: 200px;
+    height: 470px;
+    margin: 15px;
+    border-radius: 20px;
+  }
+  
+section.product .container .card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+  
+section.product .container .card a{
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+  }
+  section.contact{
+    background-color: black;
+    height: 600px;
+  }
+  section.contact .card{
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    width: 400px;
+  }
+  section.contact .card img{
+    width: 200px;
+  }
+  footer{
+    background-color:rgb(254, 254, 255);
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 20px;
+  }
+  footer {
+    height: 30px;
+    background: #eeff00;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    gap: 20px;
+}
+
+footer a {
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+}
